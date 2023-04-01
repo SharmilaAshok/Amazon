@@ -14,6 +14,7 @@ public class AmazonLogIn {
 		driver=new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.amazon.in/");
+		System.out.println("*************************");
 	}
 	@Test
 	public void testCases () throws InterruptedException {
